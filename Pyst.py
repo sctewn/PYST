@@ -16,6 +16,9 @@
 
 
 #Import Libraries
-import pyttsx3 #This is a librarie that convert text to speech
+import pyttsx3 #This is a library that convert text to speech and vice versa
 import calendar
-Import time
+import time
+import csv #librarie to write, read, open and save csv files
+
+
