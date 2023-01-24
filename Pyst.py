@@ -4,7 +4,10 @@
 
 
 #First we need to install and import some libraries, if you are not familiar with python please check the file Learnpython.txt there is beginners youtube tutorials in English, Spanish and Japanese
-
+#this are the libraries for installation pip or pip3 on your command terminal:
+#pip install speechrecognition
+#pip install pyttsx3
+#pip install pyaudio
 
 #Import Libraries
 import speech_recognition as  sr #this will recognize your speech
@@ -15,6 +18,7 @@ import csv #librarie to write, read, open and save csv files
 
 r = sr.Recognizer()
 
+#Whit this code you can talk and will see on your terminal what have you said.
 while True:
     
     try:
