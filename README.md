@@ -12,8 +12,8 @@ For this you will need to have basic understanding of python because i will writ
 Current Status:
 
 The code reply with a meme sound:
-if you say yes // will select a sound of the Sounds/Good
-if you say no // will select a sound of the Sounds/Bad
-if you say wait, hold on, i will // will select a sound of the Sounds/Waiting
+-if you say yes // will select a sound of the Sounds/Good
+-if you say no // will select a sound of the Sounds/Bad
+-if you say wait, hold on, i will // will select a sound of the Sounds/Waiting
 
 You can put more answers, i will make them a function so it will be easy to use.
