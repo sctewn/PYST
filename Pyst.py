@@ -21,7 +21,9 @@ from playsound import playsound
 import pandas as pd
 
 r = sr.Recognizer()
-
+engine = pyttsx3.init()
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[1].id)
 
 
 
@@ -37,18 +39,25 @@ def answerAnalyser(text):
             print(filename)
             sound = 'Sounds/Bad/'+filename
             playsound(sound)
+            engine.say("Seriously Bro?, can't believe it")
+            engine.runAndWait()
         elif text in answer['Answer'][i] and answer['Category'][i] == 'waiting': 
             filename = random.choice(os.listdir(r"Sounds/Waiting"))
             print(filename)
             sound = 'Sounds/Waiting/'+filename
             playsound(sound) 
+            engine.say("come on, how many days you need to do this?.")
+            engine.runAndWait()
         elif text in answer['Answer'][i] and answer['Category'][i] == 'yes': 
             filename = random.choice(os.listdir(r"Sounds/Good"))
             print(filename)
             sound = 'Sounds/Good/'+filename
             playsound(sound) 
+            engine.say("Here is your star for job done!")
+            engine.runAndWait()
         else:
             print("i Didn't get it, please repeat it")
+
 
 
             
@@ -57,6 +66,8 @@ def answerAnalyser(text):
 while True:
     
     try:
+        engine.say("have you finish your task?") #will repeat with the loop, so try the answers.
+        engine.runAndWait()
         
         with sr.Microphone() as source:
             print("Say something!")
