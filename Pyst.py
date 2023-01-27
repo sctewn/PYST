@@ -9,6 +9,7 @@
 #pip install pyttsx3
 #pip install pyaudio
 #pip install playsound==1.2.2
+#pip install pandas
 
 #Import Libraries
 import speech_recognition as  sr #this will recognize your speech
@@ -17,6 +18,7 @@ import calendar
 import time
 import csv #librarie to write, read, open and save csv files
 from playsound import playsound
+import pandas as pd
 
 r = sr.Recognizer()
 
