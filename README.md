@@ -1,5 +1,7 @@
 # PYST
-Stand for **P*ut* Y*our* S*hit* T*ogether***. this is an Assistant that will try to help you out to reach a better version of yourself. I know there is a plenty solutions out there starting with Siri, Alexa, Cortana and others. But the idea is to have one really away from your phone and also be able to understand the code, improve it and personalize for yourself because we all have different need.
+Stand for **P*ut* Y*our* S*hit* T*ogether***. this is an Assistant that will try to help you out to reach a better version of yourself. Most of the people in they life have solve the best way to his/her development and i take my hat off to clap them, others no. Maybe you need a push or some ideas to do it, if this is the case this could help. 
+
+I know there is a plenty solutions out there starting with Siri, Alexa, Cortana and others. But the idea is to have one really away from your phone and also be able to understand the code, improve it and personalize for yourself because we all have different need.
 
 For start the main functions of the algorithm is to just create one simple new habit and keep track of it.
 
