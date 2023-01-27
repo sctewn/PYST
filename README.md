@@ -9,7 +9,7 @@ Also in the future you could add ChatGPT to ask questions, but this is not the m
 
 For this you will need to have basic understanding of python because i will write the code in this language. Also we will use the microphone and the speakers in order to interact with the code.
 
-Current Status:
+### Current Status:
 
 The code reply with a meme sound:
 - if you say yes // will select a sound of the Sounds/Good
@@ -17,3 +17,19 @@ The code reply with a meme sound:
 - if you say wait, hold on, i will // will select a sound of the Sounds/Waiting
 
 You can put more answers, i will make them a function so it will be easy to use.
+
+
+### For the next relase:
+
+- Create an habit.
+- Set reminders.
+- Enable a countdown timer.
+- Enable a pomodoro function.
+
+### To be develop:
+
+- Track habit.
+- You can add your ChatGPT api in order to get your responses validates and save that in a csv file, then you will use it to train a model* and predict your answers.
+- You will be able to thing directly to chatGPT and get an audio response.
+- Deliver a code that predict your answers for a better interaction with the Assistant.
+- Ask information to Google and get an audio response. You will also need an api for that.
