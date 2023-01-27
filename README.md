@@ -16,8 +16,9 @@ The code reply with a meme sound:
 - if you say no // will select a sound of the Sounds/Bad
 - if you say wait, hold on, i will // will select a sound of the Sounds/Waiting
 
-You can put more answers, i will make them a function so it will be easy to use.
+**Something to fix:** with the current code if you say "yes" is classified as "Good" but if you say "yes i will" will also be classified as "Good" even if that is a "Waiting" reply (if you have any idea to solve this please let me know). For know i put "yes i will" ahead of "yes" in the csv file to avoid this.
 
+You can put more answers, i will make them a function so it will be easy to use.
 
 ### For the next relase:
 
