@@ -30,6 +30,6 @@ You can put more answers, i will make them a function so it will be easy to use.
 
 - Track habit.
 - You can add your ChatGPT api in order to get your responses validates and save that in a csv file, then you will use it to train a model* and predict your answers.
-- You will be able to thing directly to chatGPT and get an audio response.
+- You will be able to ask directly to chatGPT and get an audio response.
 - Deliver a code that predict your answers for a better interaction with the Assistant.
 - Ask information to Google and get an audio response. You will also need an api for that.
