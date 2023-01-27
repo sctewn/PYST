@@ -5,7 +5,7 @@ I know there is a plenty solutions out there starting with Siri, Alexa, Cortana 
 
 For start the main functions of the algorithm is to just create one simple new habit and keep track of it.
 
-For the next steps the idea is to add AI to understand your behavior and make a better strategy to create and maintain the habits. This is why this project is open, and you should understand how it works because you don't want to give any app more sensitive data of yourself.
+For the next steps the idea is to add AI to understand your behavior and make a better strategy to create and maintain the habits. This is why this project is open, and you should understand how it works because you don't want to give any app more sensitive data of yourself. **The mind is the one of the most important part of you, don't trust them easily to a third party**, with this you will control every step of the process and maybe you will get interested more in the mind.
 
 Also in the future you could add ChatGPT to ask questions, but this is not the main goal and Siri, Alexa or Cortana can perform this pretty well. Also you will be able to install this on your phone if you like, add some notifications and other things. But as i've said there is solutions for that.
 
